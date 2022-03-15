@@ -1,13 +1,13 @@
 * body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .header {
     display: block;
     padding: 5px;
     margin: 1px;
-    background-color: rgb(107, 107, 241);
-    background-image:url(https://wallpaperstock.net/outer-space%2c-artwork-wallpapers_57296_852x480.jpg) ;
+    background-color: transparent;
 }
 * nav {
     text-align: right;
@@ -31,7 +31,7 @@
 
 * a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .header nav ul li {
@@ -39,33 +39,74 @@
     margin-left: 10px;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section p {
+    padding-left: 100px;
+}
+
+
 .content {
+    border-left: 3px solid rgb(0, 0, 0);
+    flex: 0 0 90%;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 100px;
+}
+
+#mainwork {
     display: block;
-    padding: 20px;
-    margin: 20px 0px 40px 40px;
-    background-color: rgb(107, 107, 241);
+    border: 1px solid rgb(0, 0, 0);
+    flex: 0 0 50%;
+    margin: 5px 200px 15px 200px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-image: url(https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2018/01/clouds-19.jpg?itok=Qfa5j6NW);
 }
 
-* h1 {
-    color: white;
-    font-size: 50px;
+.projects {
+    display: flex;
+    flex:0 0 25% ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-* h2 {
-    color: white;
-    font-size: 30px;
+.projects figure{
+border: 1px solid black;
+padding: 5px 5px 5px 5px;
+margin: 5px 5px 5px 5px;
+border-radius: 5px;
+box-shadow: 5px;
 }
 
-* p {
-    font-size: 20px;
-    color: white;
+.projects figure {
+    flex: 20%;
 }
 
-.content ul li {
-    display: inline-block;
+#calculator {
+    background-image: url(https://www.carlow.edu/wp-content/uploads/2021/01/net-price-calculators.jpg);
 }
 
-.content ul {
+#ledwall {
+    background-image: url(https://chrismillerstuff.com/wp-content/uploads/2018/04/25394928_10155939755843088_3589972164791572199_o-300x298.jpg);
+}
+
+#puzzles {
+    background-image: url(https://thumbs.dreamstime.com/z/businessman-assembling-last-missing-puzzle-wall-landscape-40939599.jpg);
+}
+
+#runbuddy {
+    background-image: url(https://thumbs.dreamstime.com/z/healthy-lifestyle-fitness-sports-woman-running-sunrise-road-39709089.jpg);
+}
+
+#contact ul {
     text-align: center;
-    word-spacing: 10px;
+}
+
+#contact ul li {
+    display: inline;
+    word-spacing: 20px;
 }
