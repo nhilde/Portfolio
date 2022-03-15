@@ -42,71 +42,89 @@
 main {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 
-section p {
-    padding-left: 100px;
+.aboutme {
+    border-left: 3px solid black;
+
+    flex: 0 0 95%;
+    color: black;
+    padding: 10px 0px 10px 10px;
+    margin: 35px 10px 35px 10px;
 }
 
 
-.content {
-    border-left: 3px solid rgb(0, 0, 0);
-    flex: 0 0 90%;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 100px;
+.maincard {
+    border: 2px solid black;
+    border-radius: 10px;
+    flex: 0 0 80%;
+    color: black;
 }
 
-#mainwork {
-    display: block;
-    border: 1px solid rgb(0, 0, 0);
-    flex: 0 0 50%;
-    margin: 5px 200px 15px 200px;
-    padding: 5px 5px 5px 5px;
-    border-radius: 5px;
-    background-image: url(https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2018/01/clouds-19.jpg?itok=Qfa5j6NW);
-}
 
-.projects {
-    display: flex;
-    flex:0 0 25% ;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+figure {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    flex: 0 0 40%;
+    color: rgb(0, 0, 0);
     flex-direction: column;
 }
 
-.projects figure{
-border: 1px solid black;
-padding: 5px 5px 5px 5px;
-margin: 5px 5px 5px 5px;
-border-radius: 5px;
-box-shadow: 5px;
+@media screen and (max-width: 992px) {
+
+      flex: 0 0 60%;
+    }
+
+h2 {
+    text-align: left;
+    position: relative;
+    justify-content: center;
 }
 
-.projects figure {
-    flex: 20%;
+
+.contact {
+    border-left: 3px solid black;
+
+    flex: 0 0 95%;
+    color: black;
+    padding: 10px 0px 10px 10px;
+    margin: 35px 10px 35px 10px;
+
+
+
+}
+
+.contact ul {
+    list-style-type: none;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.contact ul li {
+    justify-content: center;
+    display: inline;
+    
+
+
+}
+
+#maincard {
+    background-image: url(https://jollytrails.files.wordpress.com/2020/09/how-great-1400x200-1.jpg?w=1400&h=200&crop=1);
 }
 
 #calculator {
-    background-image: url(https://www.carlow.edu/wp-content/uploads/2021/01/net-price-calculators.jpg);
-}
-
-#ledwall {
-    background-image: url(https://chrismillerstuff.com/wp-content/uploads/2018/04/25394928_10155939755843088_3589972164791572199_o-300x298.jpg);
+    background-image: url(https://edcobusiness.com/wp-content/uploads/How-much-does-an-employee-cost-in-Spain.png)
 }
 
 #puzzles {
-    background-image: url(https://thumbs.dreamstime.com/z/businessman-assembling-last-missing-puzzle-wall-landscape-40939599.jpg);
+    background-image: url(https://s3-us-west-2.amazonaws.com/membervault/scamplife/puzzle-pieces1000.jpg)
+}
+
+#ledwall {
+   background-image: url(https://images.squarespace-cdn.com/content/v1/59d6f9d8e45a7cb8b0809b28/1526444567913-ZT2NISY3V8K5ZALPHHPQ/light-summer-colour-gradients.jpg?format=1000w);
 }
 
 #runbuddy {
-    background-image: url(https://thumbs.dreamstime.com/z/healthy-lifestyle-fitness-sports-woman-running-sunrise-road-39709089.jpg);
-}
-
-#contact ul {
-    text-align: center;
-}
-
-#contact ul li {
-    display: inline;
-    word-spacing: 20px;
+    background-image: url(https://bark-user-data.s3.eu-west-1.amazonaws.com/users/6125137/5f443e698b7aa-1598307945.jpg);
 }
