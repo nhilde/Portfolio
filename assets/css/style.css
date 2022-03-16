@@ -58,7 +58,7 @@ main {
 .maincard {
     border: 2px solid black;
     border-radius: 10px;
-    flex: 0 0 80%;
+    flex: 0 0 60%;
     color: black;
 }
 
