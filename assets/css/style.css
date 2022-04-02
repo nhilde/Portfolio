@@ -1,6 +1,6 @@
 * body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(90deg, rgba(92,9,121,1) 0%, rgba(120,200,255,1) 0%, rgba(140,107,255,1) 76%);
 }
 
 .header {
@@ -110,11 +110,11 @@ h2 {
 }
 
 #maincard {
-    background-image: url(https://jollytrails.files.wordpress.com/2020/09/how-great-1400x200-1.jpg?w=1400&h=200&crop=1);
+    background-image: url(http://www.simpleimageresizer.com/_uploads/photos/16e9091a/nba_team_banner_1100x200.png);
 }
 
-#calculator {
-    background-image: url(https://edcobusiness.com/wp-content/uploads/How-much-does-an-employee-cost-in-Spain.png)
+#weatherDash {
+    background-image: url(https://s.w-x.co/thunderstormasthma.jpg)
 }
 
 #puzzles {
@@ -127,4 +127,18 @@ h2 {
 
 #runbuddy {
     background-image: url(https://bark-user-data.s3.eu-west-1.amazonaws.com/users/6125137/5f443e698b7aa-1598307945.jpg);
+}
+
+.workCardText {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#oldPic {
+    max-height: 280px;
+    max-width: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
