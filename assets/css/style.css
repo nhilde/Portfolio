@@ -110,7 +110,8 @@ h2 {
 }
 
 #maincard {
-    background-image: url(http://www.simpleimageresizer.com/_uploads/photos/16e9091a/nba_team_banner_1100x200.png);
+    /* background-image: url(http://www.simpleimageresizer.com/_uploads/photos/16e9091a/nba_team_banner_1100x200.png); */
+    background-image: url(https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/league-finals-2-1100x200.png);
 }
 
 #weatherDash {
